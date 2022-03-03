@@ -158,6 +158,34 @@ section {
 .darker-background {
   background-color: #23252f;
 }
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#skills h1 {
+  text-align: center;
+  padding: 0.5em;
+}
+.skillset {
+  margin: 3em 0 0 0;
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skillset div i {
+  font-size: 5em;
+}
+.skillset div p {
+  margin: 1em 0;
+}
+.skillset div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 @media (max-width: 640px) {
   header {
@@ -179,5 +207,8 @@ section {
   }
   .pic-biography {
     display: block;
+  }
+  .skillset div {
+    flex-basis: 50%;
   }
 }
