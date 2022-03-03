@@ -48,7 +48,6 @@ h1 {
   font-size: 3rem;
   font-weight: 300;
   color: #97a5ac;
-  margin: 0.3em;
 }
 
 .pic-biography {
@@ -68,9 +67,12 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+.biography-text h1 {
+  margin: 1em 0.3em 0.1em 0.3em;
+}
 .biography-text p {
   display: block;
-  margin: 1em;
+  margin: 0.5em 1em 1em 1em;
   font-size: 1.5em;
   font-weight: lighter;
 }
@@ -149,6 +151,14 @@ a {
   width: 100px;
 }
 
+section {
+  margin-bottom: 10%;
+  width: 100%;
+}
+.darker-background {
+  background-color: #23252f;
+}
+
 @media (max-width: 640px) {
   header {
     flex-wrap: wrap;
@@ -159,9 +169,11 @@ a {
   header a:first-child {
     margin-bottom: 0.8em;
   }
-
   main {
     margin-top: 30%;
+  }
+  h1 {
+    margin-bottom: 500px;
   }
   .biography-text {
     align-items: center;
