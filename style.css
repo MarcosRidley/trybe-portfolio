@@ -185,6 +185,10 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #785548;
+}
+.skillset div p {
+  color: #f7f7f1;
 }
 
 @media (max-width: 640px) {
