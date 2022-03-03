@@ -162,6 +162,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5em;
+  margin-bottom: 0;
 }
 #skills h1 {
   text-align: center;
@@ -180,15 +182,13 @@ section {
 }
 .skillset div p {
   margin: 1em 0;
+  color: #f7f7f1;
 }
 .skillset div {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #785548;
-}
-.skillset div p {
-  color: #f7f7f1;
 }
 
 @media (max-width: 640px) {
