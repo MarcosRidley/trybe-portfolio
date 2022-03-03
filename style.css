@@ -69,6 +69,7 @@ h1 {
 .biography-text p {
   display: block;
   margin: 1em;
+  font-size: 1.5em;
 }
 
 .profile-pic {
@@ -84,21 +85,61 @@ h1 {
 
 .pic-description p {
   margin: 10px 0;
+  color: #97a5ac;
+  font-size: 1.1em;
+}
+
+#home {
+  color: #f7f7f7;
+  font-size: 2em;
 }
 
 #socials {
-  margin: 8px;
+  display: flex;
+}
+#socials li {
+  margin-right: 8px;
+  font-size: 2.5em;
+}
+#socials li a:visited,
+#socials li a:link,
+#socials li a:hover,
+#socials li a:active {
+  color: #785548;
+}
+#socials li:hover {
+  transform: scale(1.2);
+}
+a {
+  text-decoration: none;
 }
 
 .lists {
   display: flex;
-  justify-content: space-evenly;
+  color: #97a5ac;
   align-items: flex-start;
+  justify-content: space-evenly;
+}
+.lists li {
+  color: #f7f7f7;
+}
+.lists {
+  margin: 1em 1em;
+}
+.lists h2 {
+  padding: 1em;
+  font-size: 2em;
 }
 
 @media (max-width: 640px) {
   header {
     flex-wrap: wrap;
+  }
+  header a {
+    font-size: 1em;
+  }
+  header a:first-child {
+    margin-bottom: 0.8em;
   }
 
   main {
